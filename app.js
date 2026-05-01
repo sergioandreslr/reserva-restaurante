@@ -331,7 +331,7 @@ app.delete("/reservas/:id_reserva", (req, res) => {
 // ============================================================
 // Iniciamos el servidor en el puerto 3000
 // ============================================================
-const PUERTO = 3000;
+const PUERTO = process.env.PORT || 3000;
 app.listen(PUERTO, () => {
     console.log(`Servidor corriendo en http://127.0.0.1:${PUERTO}`);
     console.log("Presiona CTRL+C para detener el servidor");

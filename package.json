@@ -1,13 +1,14 @@
 {
   "name": "reserva-restaurante",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST para gestión de reservas de restaurante",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sergio Andrés",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
